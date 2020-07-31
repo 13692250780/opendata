@@ -1,6 +1,7 @@
 # opendata
 java一款简洁的博客系统；VUE+springboot<br>
-
+![Image text](https://raw.githubusercontent.com/13692250780/opendata/rmaster/images/w1.png)
+![Image text](https://raw.githubusercontent.com/13692250780/opendata/rmaster/images/w2.png)
 管理服务端<br>
 -
 1.执行sql文件<br>
