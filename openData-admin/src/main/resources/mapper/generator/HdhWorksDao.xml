@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.generator.dao.HdhWorksDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.generator.entity.HdhWorksEntity" id="hdhWorksMap">
+        <result property="id" column="id"/>
+        <result property="worksName" column="works_name"/>
+        <result property="worksDesc" column="works_desc"/>
+        <result property="pictureUrl" column="picture_url"/>
+        <result property="isNew" column="is_new"/>
+        <result property="isRecommend" column="is_recommend"/>
+        <result property="createTime" column="create_time"/>
+        <result property="linkUrl" column="link_url"/>
+        <result property="categoryId" column="category_id"/>
+        <result property="content" column="content"/>
+    </resultMap>
+
+
+</mapper>
